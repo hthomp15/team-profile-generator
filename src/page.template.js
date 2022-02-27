@@ -3,8 +3,8 @@ generateManager = manager => {
         <div class="col-4 mt-5">
             <div class="card h-100">
                 <div class="bg-primary text-white p-2">
-                    <h2 class="manager-name">${manager.name}</h3>
-                    <h3 class="manager-title"><i class="fa  fa-solid fa-mug-hot"></i> Manger</h2>
+                    <h2 class="manager-name">${manager.name}</h2>
+                    <h3 class="manager-title"><i class="fa  fa-solid fa-mug-hot"></i> Manger</h3>
                 </div>
 
                 <div class="card-body bg-light">
@@ -43,8 +43,8 @@ generateIntern = intern => {
         <div class="col-4 mt-5">
             <div class="card h-100">
                 <div class="bg-primary text-white p-2">
-                    <h2 class="intern-name">${intern.name}</h3>
-                    <h3 class="intern-title"><i class="fa fas fa-user-graduate"></i> Intern</h2>
+                    <h2 class="intern-name">${intern.name}</h2>
+                    <h3 class="intern-title"><i class="fa fas fa-user-graduate"></i> Intern</h3>
                 </div>
 
                 <div class="card-body bg-light">
@@ -112,7 +112,7 @@ return`<!DOCTYPE html>
     </header>
 
     <main class="container">
-        <div class="team-container row">
+        <div class="team-container  justify-content-center row">
             ${data}
         </div>
     </main> 
