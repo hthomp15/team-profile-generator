@@ -2,7 +2,7 @@ generateManager = manager => {
     return `
         <div class="col-4 mt-5">
             <div class="card h-100">
-                <div class="bg-primary text-white p-2">
+                <div class="bg-primary text-center text-white p-2">
                     <h2 class="manager-name">${manager.name}</h2>
                     <h3 class="manager-title"><i class="fa  fa-solid fa-mug-hot"></i> Manger</h3>
                 </div>
@@ -22,7 +22,7 @@ generateEngineer = engineer => {
     return `
         <div class="col-4 mt-5">
             <div class="card h-100">
-                <div class="bg-primary text-white p-2">
+                <div class="bg-primary text-center text-white p-2">
                     <h2 class="engineer-name">${engineer.name}</h2>
                     <h3 class="engineer-title"><i class="fa fa-solid fa-glasses"></i> Engineer</h3>
                 </div>
@@ -42,7 +42,7 @@ generateIntern = intern => {
     return `
         <div class="col-4 mt-5">
             <div class="card h-100">
-                <div class="bg-primary text-white p-2">
+                <div class="bg-primary text-center text-white p-2">
                     <h2 class="intern-name">${intern.name}</h2>
                     <h3 class="intern-title"><i class="fa fas fa-user-graduate"></i> Intern</h3>
                 </div>

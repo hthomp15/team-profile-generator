@@ -179,7 +179,7 @@ const addEmployee = () => {
 
         teamArr.push(employeeData);
 
-        if(confirmAdd) {
+        if(confirmInput) {
             return addEmployee(teamArr)
         } else {
             console.log(teamArr)
